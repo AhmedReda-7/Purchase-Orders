@@ -23,6 +23,14 @@ The goal is to load, integrate, and analyze purchase order data by combining cus
 - `ODS_PO`: Raw + enriched purchase order data
 - `EMP_ORDERS`: Aggregated employee order data
 - `CUST_ORDERS`: Aggregated customer order data
+  
+# ![M_EMP_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_EMP_ORDERS.png)
+# ![M_CUST_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/[M_CUST_ORDERS.png)
+# ![WF_EMP](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WF_EMP.png)
+# ![WF_CUST](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WF_CUST.png)
+# ![WE_ODS_PO](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WE_ODS_PO.png)
+# ![PO_DATA](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/PO_DATA.png)
+# ![M_ODS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_ODS.png)
 
 ## 🔧 Tools & Technologies
 
@@ -47,3 +55,4 @@ The goal is to load, integrate, and analyze purchase order data by combining cus
 ├── data/
 │   └── po_data.csv
 └── README.md
+
