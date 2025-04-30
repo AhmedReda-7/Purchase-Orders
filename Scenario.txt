@@ -1,0 +1,73 @@
+Project Scenario: Retail Purchase Order Analytics
+Business Background:
+
+A medium-sized retail company manages its operations across multiple regions, employing a large team of sales representatives and handling thousands of customer transactions monthly. The management has identified the need for better insights into sales performance and customer purchasing behavior in order to:
+
+Optimize employee productivity
+
+Understand customer buying patterns
+
+Improve operational decision-making through data-driven insights
+
+Currently, the company stores its data in disparate sources:
+
+Purchase orders in flat files (CSV format)
+
+Employee and customer information in Oracle database tables
+
+However, no consolidated system exists to generate analytical reports or KPIs from this raw data.
+
+Business Requirement:
+The data team is tasked with designing an ETL solution using Informatica PowerCenter to:
+
+Integrate and enrich purchase order data with employee and customer details.
+
+Aggregate orders to evaluate:
+
+Employee performance (based on number and value of orders handled)
+
+Customer engagement (based on frequency and value of purchases)
+
+Automate the entire data pipeline through dependent workflows with clear failure handling logic.
+
+Expected Outcome:
+A central ODS_PO table containing enriched purchase order data for future reporting and analytics.
+
+Two analytical views:
+
+EMP_ORDERS: Total orders per employee.
+
+CUST_ORDERS: Total orders per customer.
+
+A robust ETL process with:
+
+Data validation
+
+Workflow dependencies (fail-safe mechanism)
+
+Modular mappings for easy maintenance and scaling
+
+Technical Summary:
+Source Data:
+
+po_data.csv (Purchase Orders)
+
+EMP Table (Employee Info)
+
+CUST Table (Customer Info)
+
+Target Tables:
+
+ODS_PO – Staging + Enrichment
+
+EMP_ORDERS – Aggregated by employee
+
+CUST_ORDERS – Aggregated by customer
+
+ETL Tool: Informatica PowerCenter
+
+Database Platform: Oracle (ORCLDB)
+
+ETL Design: Modular Mappings, Sequential Workflows
+
+Business Logic: Conditional load dependency on ODS_PO success
