@@ -1,13 +1,10 @@
-# Purchase-Orders
-
 # Purchase Orders Project
-
-# ![M_ODS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_ODS.png)
-# ![M_EMP_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_EMP_ORDERS.png)
-# ![M_CUST_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_CUST_ORDERS.png)
 
 This ETL project was built using **Informatica PowerCenter** to simulate a retail analytics use case. 
 The goal is to load, integrate, and analyze purchase order data by combining customer and employee information for performance tracking and reporting.
+# ![M_ODS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_ODS.png)
+# ![M_EMP_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_EMP_ORDERS.png)
+# ![M_CUST_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_CUST_ORDERS.png)
 
 
 ## 📌 Project Objectives
