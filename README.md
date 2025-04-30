@@ -2,8 +2,13 @@
 
 # Purchase Orders Project
 
+# ![M_ODS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_ODS.png)
+# ![M_EMP_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_EMP_ORDERS.png)
+# ![M_CUST_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_CUST_ORDERS.png)
+
 This ETL project was built using **Informatica PowerCenter** to simulate a retail analytics use case. 
 The goal is to load, integrate, and analyze purchase order data by combining customer and employee information for performance tracking and reporting.
+
 
 ## 📌 Project Objectives
 
@@ -11,6 +16,9 @@ The goal is to load, integrate, and analyze purchase order data by combining cus
 - Aggregate orders per employee and per customer.
 - Implement a controlled workflow with failure dependencies.
 - Automate ETL pipelines using mappings and workflows.
+# ![WF_EMP](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WF_EMP.png)
+# ![WF_CUST](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WF_CUST.png)
+# ![WE_ODS_PO](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WE_ODS_PO.png)
 
 ## 🧱 Architecture Overview
 
@@ -18,19 +26,14 @@ The goal is to load, integrate, and analyze purchase order data by combining cus
 - `po_data.csv` - Purchase Orders (CSV File)
 - `EMP` Table - Employee Information
 - `CUST` Table - Customer Information
+# ![PO_DATA](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/PO_DATA.png)
+
 
 **Target Tables:**
 - `ODS_PO`: Raw + enriched purchase order data
 - `EMP_ORDERS`: Aggregated employee order data
 - `CUST_ORDERS`: Aggregated customer order data
-  
-# ![M_EMP_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_EMP_ORDERS.png)
-# ![M_CUST_ORDERS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/[M_CUST_ORDERS.png)
-# ![WF_EMP](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WF_EMP.png)
-# ![WF_CUST](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WF_CUST.png)
-# ![WE_ODS_PO](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/WE_ODS_PO.png)
-# ![PO_DATA](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/PO_DATA.png)
-# ![M_ODS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/M_ODS.png)
+# ![TGT_ODS](https://raw.githubusercontent.com/AhmedReda-7/Purchase-Orders/main/TGT_ODS.png) 
 
 ## 🔧 Tools & Technologies
 
